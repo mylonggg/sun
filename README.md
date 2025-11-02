@@ -131,11 +131,11 @@
 
 ```bash
 # 拉取预构建镜像
-docker pull ghcr.io/m-longggg/sun:sha-e316ee3
+docker pull ghcr.io/mylonggg/sun:sha-908b8ba
 
 # 运行容器
 # -d: 后台运行  -p: 映射端口 3000 -> 3000
-docker run -d --name moontv -p 3000:3000 --env PASSWORD=your_password ghcr.io/m-longggg/sun:sha-e316ee3
+docker run -d --name moontv -p 3000:3000 --env PASSWORD=your_password ghcr.io/mylonggg/sun:sha-908b8ba
 ```
 
 访问 `http://服务器 IP:3000` 即可。（需自行到服务器控制台放通 `3000` 端口）
@@ -149,7 +149,7 @@ docker run -d --name moontv -p 3000:3000 --env PASSWORD=your_password ghcr.io/m-
 ```yaml
 services:
   moontv:
-    image: ghcr.io/m-longggg/sun:sha-e316ee3
+    image: ghcr.io/mylonggg/sun:sha-908b8ba
     container_name: moontv
     restart: unless-stopped
     ports:
