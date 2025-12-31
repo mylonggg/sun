@@ -115,11 +115,10 @@
    pnpm install --frozen-lockfile && pnpm run pages:build
  ```
 5. 预设框架为无
-
-6.构建输出目录为
- ```
+6. 构建输出目录为
+```
  .vercel/output/static
- ```
+```
 7. 保持默认设置完成首次部署。进入设置，将兼容性标志设置为 `nodejs_compat`，无需选择，直接粘贴
 8. 首次部署完成后进入设置，新增 PASSWORD 密钥（变量和机密下），而后重试部署。
 9. 如需自定义 `config.json`，请直接修改 Fork 后仓库中该文件。
