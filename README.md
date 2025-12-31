@@ -114,8 +114,7 @@
  ```
    pnpm install --frozen-lockfile && pnpm run pages:build
  ```
-5. 预设框架为无，
-
+5. 预设框架为无
 6.**构建输出目录**为
  ```
  .vercel/output/static
